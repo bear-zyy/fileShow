@@ -30,7 +30,7 @@
     
     UIButton * but = [UIButton buttonWithType:UIButtonTypeCustom];
     but.frame = CGRectMake(40, 600, 50, 100);
-    [but setTitle:@"点击" forState:UIControlStateNormal];
+    [but setTitle:@"点击分享" forState:UIControlStateNormal];
     [but setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     
     [but addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
