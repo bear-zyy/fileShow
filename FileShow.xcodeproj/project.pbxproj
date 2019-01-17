@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21FD3A15B4F511AFE8E73C76 /* libPods-FileShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 430826AE9983313328AFB3F2 /* libPods-FileShow.a */; };
 		7ACF0A3521E59DD30040253F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF0A3421E59DD30040253F /* AppDelegate.m */; };
 		7ACF0A3821E59DD30040253F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF0A3721E59DD30040253F /* ViewController.m */; };
 		7ACF0A3B21E59DD30040253F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF0A3921E59DD30040253F /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		7ACF0A4321E59DD60040253F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF0A4221E59DD60040253F /* main.m */; };
 		7ACF0A4D21E59DD60040253F /* FileShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF0A4C21E59DD60040253F /* FileShowTests.m */; };
 		7ACF0A5821E59DD60040253F /* FileShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF0A5721E59DD60040253F /* FileShowUITests.m */; };
+		7ACF0A6621E5A4810040253F /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF0A6521E5A4810040253F /* test.pdf */; };
+		7ACF0A6A21E5A4DD0040253F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF0A6821E5A4DD0040253F /* FirstViewController.m */; };
+		7ACF0A6B21E5A4DD0040253F /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF0A6921E5A4DD0040253F /* FirstViewController.xib */; };
+		7ACF0A7C21E5E0210040253F /* QSPDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF0A7A21E5E0210040253F /* QSPDownloadTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210DD845D8024D70C240F830 /* Pods-FileShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-FileShow/Pods-FileShow.release.xcconfig"; sourceTree = "<group>"; };
+		430826AE9983313328AFB3F2 /* libPods-FileShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FileShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F59DEA5015041D289A2DEF6 /* Pods-FileShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileShow/Pods-FileShow.debug.xcconfig"; sourceTree = "<group>"; };
 		7ACF0A3021E59DD30040253F /* FileShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACF0A3321E59DD30040253F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7ACF0A3421E59DD30040253F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,13 @@
 		7ACF0A5321E59DD60040253F /* FileShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACF0A5721E59DD60040253F /* FileShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileShowUITests.m; sourceTree = "<group>"; };
 		7ACF0A5921E59DD60040253F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACF0A6521E5A4810040253F /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+		7ACF0A6721E5A4DD0040253F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7ACF0A6821E5A4DD0040253F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7ACF0A6921E5A4DD0040253F /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		7ACF0A7921E5E0210040253F /* QSPDownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSPDownloadTool.h; sourceTree = "<group>"; };
+		7ACF0A7A21E5E0210040253F /* QSPDownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSPDownloadTool.m; sourceTree = "<group>"; };
+		7ACF0A7B21E5E0210040253F /* Downloadheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloadheader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FD3A15B4F511AFE8E73C76 /* libPods-FileShow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6391499902B53B436C16326F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F59DEA5015041D289A2DEF6 /* Pods-FileShow.debug.xcconfig */,
+				210DD845D8024D70C240F830 /* Pods-FileShow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7ACF0A2721E59DD30040253F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				7ACF0A4B21E59DD60040253F /* FileShowTests */,
 				7ACF0A5621E59DD60040253F /* FileShowUITests */,
 				7ACF0A3121E59DD30040253F /* Products */,
+				7ACF0A7421E5CFD60040253F /* Frameworks */,
+				6391499902B53B436C16326F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +128,17 @@
 		7ACF0A3221E59DD30040253F /* FileShow */ = {
 			isa = PBXGroup;
 			children = (
+				7ACF0A6521E5A4810040253F /* test.pdf */,
 				7ACF0A3321E59DD30040253F /* AppDelegate.h */,
 				7ACF0A3421E59DD30040253F /* AppDelegate.m */,
 				7ACF0A3621E59DD30040253F /* ViewController.h */,
 				7ACF0A3721E59DD30040253F /* ViewController.m */,
+				7ACF0A7B21E5E0210040253F /* Downloadheader.h */,
+				7ACF0A7921E5E0210040253F /* QSPDownloadTool.h */,
+				7ACF0A7A21E5E0210040253F /* QSPDownloadTool.m */,
+				7ACF0A6721E5A4DD0040253F /* FirstViewController.h */,
+				7ACF0A6821E5A4DD0040253F /* FirstViewController.m */,
+				7ACF0A6921E5A4DD0040253F /* FirstViewController.xib */,
 				7ACF0A3921E59DD30040253F /* Main.storyboard */,
 				7ACF0A3C21E59DD50040253F /* Assets.xcassets */,
 				7ACF0A3E21E59DD50040253F /* LaunchScreen.storyboard */,
@@ -132,6 +166,14 @@
 			path = FileShowUITests;
 			sourceTree = "<group>";
 		};
+		7ACF0A7421E5CFD60040253F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				430826AE9983313328AFB3F2 /* libPods-FileShow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ACF0A5C21E59DD60040253F /* Build configuration list for PBXNativeTarget "FileShow" */;
 			buildPhases = (
+				68577667B7B0CE5F37AA8577 /* [CP] Check Pods Manifest.lock */,
 				7ACF0A2C21E59DD30040253F /* Sources */,
 				7ACF0A2D21E59DD30040253F /* Frameworks */,
 				7ACF0A2E21E59DD30040253F /* Resources */,
@@ -235,6 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACF0A6621E5A4810040253F /* test.pdf in Resources */,
+				7ACF0A6B21E5A4DD0040253F /* FirstViewController.xib in Resources */,
 				7ACF0A4021E59DD50040253F /* LaunchScreen.storyboard in Resources */,
 				7ACF0A3D21E59DD50040253F /* Assets.xcassets in Resources */,
 				7ACF0A3B21E59DD30040253F /* Main.storyboard in Resources */,
@@ -257,14 +302,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68577667B7B0CE5F37AA8577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FileShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7ACF0A2C21E59DD30040253F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7ACF0A3821E59DD30040253F /* ViewController.m in Sources */,
+				7ACF0A7C21E5E0210040253F /* QSPDownloadTool.m in Sources */,
 				7ACF0A4321E59DD60040253F /* main.m in Sources */,
 				7ACF0A3521E59DD30040253F /* AppDelegate.m in Sources */,
+				7ACF0A6A21E5A4DD0040253F /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +501,13 @@
 		};
 		7ACF0A5D21E59DD60040253F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F59DEA5015041D289A2DEF6 /* Pods-FileShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P84Y4645A9;
 				INFOPLIST_FILE = FileShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +520,13 @@
 		};
 		7ACF0A5E21E59DD60040253F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210DD845D8024D70C240F830 /* Pods-FileShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P84Y4645A9;
 				INFOPLIST_FILE = FileShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
